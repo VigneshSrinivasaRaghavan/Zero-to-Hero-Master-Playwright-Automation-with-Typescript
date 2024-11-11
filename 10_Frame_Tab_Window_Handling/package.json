@@ -1,0 +1,24 @@
+{
+  "name": "10_frame_tab_window_handling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "win11:chrome": "npx playwright test --project=\"chrome:latest:Windows 11@lambdatest\"",
+    "win10:chrome": "npx playwright test --project=\"chrome:latest:Windows 10@lambdatest\"",
+    "win11:edge": "npx playwright test --project=\"MicrosoftEdge:latest:Windows 11@lambdatest\"",
+    "mac:chrome": "npx playwright test --project=\"chrome:latest:MacOS Catalina@lambdatest\"",
+    "mac:edge": "npx playwright test --project=\"MicrosoftEdge:latest:MacOS Ventura@lambdatest\"",
+    "win11:pw-firefox": "npx playwright test --project=\"pw-firefox:latest:Windows 11@lambdatest\"",
+    "win10:pw-webkit": "npx playwright test --project=\"pw-webkit:latest:Windows 10@lambdatest\"",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.4.5"
+  }
+}
